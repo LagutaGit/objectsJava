@@ -27,6 +27,9 @@ public class Main {
         Salon salonBmw = new Salon("Чёрный", "Мягкий");
         System.out.println(salonBmw.color);
         System.out.println(salonBmw.materialSalon);
+        sarah.setAge(31);
+        System.out.println(sarah.getYear());
+        System.out.println(bmw.getYear());
     }
 
 

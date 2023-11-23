@@ -22,4 +22,9 @@ public class Person {
         return this.age;
     }
 
+    //    Если хотим поменять возраст, то используются setterы
+    public void setAge(int age) {
+        this.age = age;
+    }
+
 }
