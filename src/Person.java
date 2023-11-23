@@ -1,6 +1,6 @@
 public class Person {
-    String name;
-    int age;
+    private String name;
+    private int age;
 //    public static Person createPerson(String name, int age) {
 //        Person person = new Person();
 //        person.name = name;

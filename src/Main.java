@@ -19,10 +19,10 @@ public class Main {
         System.out.println(audi.getYear());
 
         Person john = new Person("Джон", 18);
-        System.out.println(john.name);
+        System.out.println(john.getName());
 
         Car bmw = new Car("asd", 341, "black");
-        System.out.println(bmw.year);
+        System.out.println(bmw.getYear());
 
         Salon salonBmw = new Salon("Чёрный", "Мягкий");
         System.out.println(salonBmw.color);
