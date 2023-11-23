@@ -26,4 +26,8 @@ public class Car {
         return this.year;
     }
 
+    public String toString() {
+        return "Модель " + this.model + " год выпуска " + this.year + " цвета " + this.color;
+    }
+
 }

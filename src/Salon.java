@@ -7,4 +7,7 @@ public class Salon {
         this.materialSalon = materialSalon;
     }
 
+    public String toString() {
+        return "Цвет " + this.color + " материал салона" + this.materialSalon;
+    }
 }
