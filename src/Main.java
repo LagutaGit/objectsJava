@@ -21,7 +21,7 @@ public class Main {
         System.out.println("sarah.name = " + sarah.getName());
         System.out.println("sarah.age = " + sarah.getYear());
         System.out.println(sarah.toString());
-        sarah.setAge(30);
+        sarah.increaseAge(30);
         System.out.println(sarah.toString());
 
 
