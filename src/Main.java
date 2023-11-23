@@ -4,6 +4,7 @@ public class Main {
 //          Было
 //        Person sarah = Person.createPerson("Sarah", 17);
 //        Стало
+        PersonServices personServices = new PersonServices();
         Person sarah = new Person("Сара", 30);
 //        Старый варик
 //        if (sarah.getYear() > 18) {
@@ -12,7 +13,13 @@ public class Main {
 //            System.out.println("НИЗЯ");
 //        }
 //        Новый варик
-        if (sarah.isAdult()) {
+//        if (sarah.isAdult()) {
+//            System.out.println("МОЖНА");
+//        } else {
+//            System.out.println("НИЗЯ");
+//        }
+//        Новый варик 2
+        if (personServices.isAdult(sarah)) {
             System.out.println("МОЖНА");
         } else {
             System.out.println("НИЗЯ");
