@@ -7,7 +7,4 @@ public class Salon {
         this.materialSalon = materialSalon;
     }
 
-
-
-
 }

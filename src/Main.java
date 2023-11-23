@@ -8,12 +8,15 @@ public class Main {
 //        Person sarah = Person.createPerson("Sarah", 17);
 //        Стало
         Person sarah = new Person("Сара", 17);
-        System.out.println("sarah.name = " + sarah.name);
-        System.out.println("sarah.age = " + sarah.age);
+        System.out.println("sarah.name = " + sarah.getName());
+        System.out.println("sarah.age = " + sarah.getYear());
 
 //        Car audi = Car.createCar("Audi", 17, "black");
         Car audi = new Car("Audi", 17, "black");
-        System.out.println(audi.model);
+//        System.out.println(audi.model);
+        System.out.println(audi.getModel());
+        System.out.println(audi.getColor());
+        System.out.println(audi.getYear());
 
         Person john = new Person("Джон", 18);
         System.out.println(john.name);

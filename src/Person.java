@@ -14,5 +14,12 @@ public class Person {
         this.age = age;
     }
 
+    public String getName(){
+        return this.name;
+    }
+
+    public int getYear() {
+        return this.age;
+    }
 
 }
